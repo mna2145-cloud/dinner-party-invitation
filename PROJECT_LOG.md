@@ -16,7 +16,7 @@ A simple website the user can share with friends to invite them to a dinner part
 ## Decisions
 
 - Project concept: a dinner party invitation website.
-- Repository: a separate repository, not either of the user's existing repositories. Repository name and visibility are undecided.
+- Repository: the separate private repository `mna2145-cloud/dinner-party-invitation`.
 - The user asked for an initial HTML pass, followed by a simple CSS pass. JavaScript behavior has not been requested.
 
 ## Implementation progress
@@ -36,7 +36,6 @@ A simple website the user can share with friends to invite them to a dinner part
 - What event details should appear (date, time, location, dress code, menu, host/contact)?
 - The RSVP action should be shown next to name and dietary restriction fields. The submission/response mechanism is still undecided.
 - What visual style should the invitation use?
-- What should the separate GitHub repository be called, and should it be public or private?
 
 ## HTML learning notes
 
@@ -89,7 +88,5 @@ This is the latest text outline discussed before implementation. Bracketed conte
 ## GitHub publishing
 
 - The user requested publishing the current version to a separate GitHub repository.
-- Publishing is not complete. The connected GitHub tools can access existing repositories but do not expose repository creation, and the GitHub browser page requires sign-in. The local `gh` CLI token is invalid.
-- Suggested repository name: `dinner-party-invitation`. Repository visibility has not been selected.
-- Connection check on 2026-10-27: the connected GitHub integration can list the account's two existing repositories (`mna2145-cloud/MSTU5003` and `mna2145-cloud/MSTU-5003-Week2-3-Project`). The separate dinner party repository is still not created or published.
-- On 2026-10-27, created the separate private GitHub repository `mna2145-cloud/dinner-party-invitation`. Publishing the current project files is in progress.
+- Connection check on 2026-10-27 confirmed that the GitHub integration can access the account.
+- On 2026-10-27, created the separate private repository `mna2145-cloud/dinner-party-invitation` and published `index.html`, `style.css`, and this project log to its `main` branch.
