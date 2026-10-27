@@ -27,14 +27,14 @@ A simple website the user can share with friends to invite them to a dinner part
 
 ## Design discussion
 
-- A basic page outline is being explored in conversation.
+- A basic page outline was agreed before implementation and is preserved below.
 - The RSVP area should include fields for a guest’s name and dietary restrictions next to the RSVP button.
-- Event details, visual style, RSVP behavior, and page content are undecided.
+- Event details and final invitation copy remain undecided. The visual style is a light pink background with dark green text and outlines, using Trebuchet MS. RSVP fields and a button are present as a static visual prototype; no submission behavior is implemented.
 
 ## Open questions
 
 - What event details should appear (date, time, location, dress code, menu, host/contact)?
-- The RSVP action should be shown next to name and dietary restriction fields. The submission/response mechanism is still undecided.
+- How should RSVP submission be handled if JavaScript is added later?
 - What visual style should the invitation use?
 
 ## HTML learning notes
