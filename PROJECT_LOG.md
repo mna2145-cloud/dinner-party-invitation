@@ -35,7 +35,6 @@ A simple website the user can share with friends to invite them to a dinner part
 
 - What event details should appear (date, time, location, dress code, menu, host/contact)?
 - How should RSVP submission be handled if JavaScript is added later?
-- What visual style should the invitation use?
 
 ## HTML learning notes
 
