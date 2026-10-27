@@ -24,6 +24,7 @@ A simple website the user can share with friends to invite them to a dinner part
 - Created an initial HTML page structure in `index.html` based on the agreed outline. The RSVP button does not submit.
 - Added `style.css` and linked it from the HTML. The page uses a light pink background, dark green text and borders, and simple outlined blocks around the header, content sections, and footer.
 - Chose Trebuchet MS with a sans-serif fallback for the page font.
+- Set the header, content sections, and footer to share the same maximum outer width and full available width.
 
 ## Design discussion
 
