@@ -1,0 +1,69 @@
+/* Basic colors and spacing for the dinner party invitation. */
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #f8e8ee;
+  color: #173f2b;
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+}
+
+header,
+main section,
+footer {
+  max-width: 48rem;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+  border: 2px solid #173f2b;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+main {
+  max-width: 51rem;
+  margin: 0 auto;
+}
+
+main section {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 24rem;
+  margin: 0.25rem 0 1rem;
+  padding: 0.5rem;
+  border: 1px solid #173f2b;
+  color: #173f2b;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: 1px solid #173f2b;
+  background-color: #173f2b;
+  color: #ffffff;
+  font: inherit;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  header,
+  main section,
+  footer {
+    padding: 1rem;
+  }
+}
