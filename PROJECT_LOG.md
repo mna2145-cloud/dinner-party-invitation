@@ -16,7 +16,7 @@ A simple website the user can share with friends to invite them to a dinner part
 ## Decisions
 
 - Project concept: a dinner party invitation website.
-- Repository: the separate private repository `mna2145-cloud/dinner-party-invitation`.
+- Repository: the separate public repository `mna2145-cloud/dinner-party-invitation`.
 - The user asked for an initial HTML pass, followed by a simple CSS pass. JavaScript behavior has not been requested.
 
 ## Implementation progress
@@ -89,4 +89,4 @@ This is the latest text outline discussed before implementation. Bracketed conte
 
 - The user requested publishing the current version to a separate GitHub repository.
 - Connection check on 2026-10-27 confirmed that the GitHub integration can access the account.
-- On 2026-10-27, created the separate private repository `mna2145-cloud/dinner-party-invitation` and published `index.html`, `style.css`, and this project log to its `main` branch.
+- On 2026-10-27, created the separate repository `mna2145-cloud/dinner-party-invitation` and published `index.html`, `style.css`, and this project log to its `main` branch. The user later confirmed changing it from private to public.
