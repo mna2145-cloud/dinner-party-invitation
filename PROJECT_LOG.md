@@ -85,12 +85,6 @@ This is the latest text outline discussed before implementation. Bracketed conte
 └─────────────────────────────────────────────────────────┘
 ```
 
-## GitHub publishing
-
-- The user requested publishing the current version to a separate GitHub repository.
-- Connection check on 2026-10-27 confirmed that the GitHub integration can access the account.
-- On 2026-10-27, created the separate repository `mna2145-cloud/dinner-party-invitation` and published `index.html`, `style.css`, and this project log to its `main` branch. The user later confirmed changing it from private to public.
-
 ## CSS learning notes
 
 - **What does line 35 in `style.css` mean?** `display: block;` makes each matching label, input, and button start on its own line instead of sitting inline with neighboring content. It helps stack the RSVP controls vertically.
